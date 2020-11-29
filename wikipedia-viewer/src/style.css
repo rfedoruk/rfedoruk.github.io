@@ -1,0 +1,107 @@
+body{
+  background-color: #3191b7;
+  color: white;
+}
+
+.random-article{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  margin-top: 20px;
+}
+
+#random{
+  width: 50px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid #1e5870;
+  background-color: #3191b7;
+}
+
+#random:hover{
+  background-color: #297b9b;
+}
+
+.glyphicon-random{
+  color: white;
+  margin-top: 3px;
+  font-size: 150%;
+}
+
+#search-form{
+  text-align: center;
+  margin-top: 200px;
+}
+
+#search{
+  background-color: #3191b7;
+  border-bottom: 3px solid #1e5870;
+  color: white;
+  width: 300px;
+  font-size: 150%;
+}
+
+*:focus {
+    outline: none;
+}
+
+input[type="text"] { border: none }
+
+
+
+::-webkit-input-placeholder {
+   color: #eaeaea;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #eaeaea;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #eaeaea;  
+}
+
+:-ms-input-placeholder {  
+   color: #eaeaea;  
+}
+
+.glyphicon-search{
+  color: #1e5870;
+  font-size: 120%;
+}
+
+.search-button{
+  background-color: #3191b7;
+  border: none
+}
+
+#content {
+	width: 80%;
+	border: 4px solid white;
+	border-radius: 10px;
+	margin-top: -50px;
+	margin: 0 auto;
+  visibility: hidden;
+}
+
+
+.wiki {
+	border: 2px solid white;
+	border-radius: 7px;
+	padding: 10px;
+	width: 80%;
+	margin: 10px auto;
+}	
+
+.snippet {
+	font-size: 1.1em;
+	color: white;
+	font-weight: 200;
+}
+.title {
+	font-size: 1.5em;
+	color: floralwhite;
+	font-weight: 500;
+	text-decoration: underline;
+	
+}

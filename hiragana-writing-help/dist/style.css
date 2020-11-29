@@ -1,0 +1,35 @@
+#english{
+	display: none;
+	font-size: 200%;
+}
+
+#japanese{
+	display: none;
+	font-size: 200%;
+}
+
+h1{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+
+}
+
+body{
+font-family: 'Raleway', sans-serif;
+
+}
+
+#startScreen{
+	text-align: center;
+}
+
+#english{
+	text-align: center;
+}
+
+#japanese{
+	text-align: center;
+}

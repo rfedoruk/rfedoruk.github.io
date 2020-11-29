@@ -1,29 +1,69 @@
 <!doctype html>
-<html class="no-js" lang="">
 
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+  <title>Roman Fedoruk</title>
+  <meta name="description" content="Roman Fedoruk Portfolio Site">
+  <meta name="author" content="Roman Fedoruk">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="styles.css">
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-
-  <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-  <h1>Roman Fedoruk</h1>
-</body>
+  <script src="js/scripts.js"></script>
 
+  <ul id="header">
+  <li class="header-child" id="name"><a href="">Roman Fedoruk</a></li>
+  <li class="header-child"><a href="">Home</a></li>
+  <li class="header-child"><a href="">About</a></li>
+  <li class="header-child"><a href="">Projects</a></li>
+</ul>
+<div id="about">
+  <h2>About</h2>
+  <p>Hey! My name is Roman Fedoruk, and I'm a student at Kennesaw State University,
+     studying Computer Science with a concentration in Artificial Intelligence. This website is a collection of the programming Projects
+   that I have successfully completed throughoughout my journey of learning software engineering.</p>
+ </div>
+  <div id="projects">
+    <h2>Projects</h2>
+    <p>This is a collection of projects that I have made, all of them are web-based and use javascript and javascript based frame-works.
+      <br>
+      Click on any of them to check them out!
+    </p>
+    <ul>
+      <li><a href="js-calculator/dist/index.html">Javascript Calculator</a>
+        <ul><li>This project is a simple calculator that is fully functional,
+          and built entirely from scratch using a few javascript libraries: jQuery and a javascript keyboard shortcut library.
+        The keyboard shortcut library was used to allow the user to use the keyboard as input.</li></ul>
+      </li>
+
+      <li><a href="hiragana-writing-help/dist/index.html">Hiragana Writing Practice</a>
+        <ul><li>
+          This is a tool that I built for myself when I was learning Japanese in school. It randomly generates a sequence of hiragana character pronounciations
+          for the user to attempt to translate, and then the user can check their translation against the correct one. This helped me learn the hiragana as well as practice my Japanese
+          handwriting.
+        </li></ul>
+      </li>
+
+      <li><a href="wikipedia-viewer/dist/index.html">Wikipedia Viewer</a>
+        <ul><li>
+          This is basically a wikipedia search engine, I used the wikipedia api to allow the user to search wikipedia and find the article that
+          they are interested in, there is also a random article button, which redirects the user to a random wikipedia article.
+        </li></ul>
+      </li>
+
+      <li><a href="tic-tac-toe/dist/index.html">Tic Tac Toe</a>
+        <ul><li>
+          This is a web based tic tac toe game, the user can choose whether they want to play as an "x" or an "O",
+          and they play tic tac toe against the computer. For now the computer just randomly pics a square, it doesn't see where the
+          user placed his tile, I plan on adding this functionality soon.
+        </li></ul>
+      </li>
+
+    </ul>
+  </div>
+</body>
 </html>
