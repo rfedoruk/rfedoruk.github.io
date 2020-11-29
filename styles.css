@@ -1,10 +1,20 @@
 
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+h2{
+ font-size: 250%;
+}
+
 #header {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: white;
+  border-bottom: 2px solid #bbbfca;
+  font-size:200%
 }
 
 .header-child {
@@ -16,18 +26,42 @@
 
 .header-child a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .header-child a:hover {
-  background-color: #111;
+  background-color: #bbbfca;
+  color: #495464;
 }
 
 #about,
 #projects{
   padding-left: 25%;
   padding-right: 25%;
+}
+#about p{
+  font-size: 200%;
+}
+#projects p{
+  font-size: 200%;
+}
+
+#projects ul{
+  list-style-type: none;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#projects ul a{
+  text-decoration: none;
+  font-size: 200%;
+  color: black;
+}
+
+#projects ul a:hover{
+  background-color: #bbbfca;
+  color: white;
 }
