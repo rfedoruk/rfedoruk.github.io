@@ -20,7 +20,7 @@
 
 .calculator{
   position: fixed; /* or absolute */
-  top: 10%; /* change back to 50% when done, it's just easier to debug this way..*/
+  top: 50%; /* change back to 50% when done, it's just easier to debug this way..*/
   left: 50%;
   margin-top: -50px;
   margin-left: -100px;

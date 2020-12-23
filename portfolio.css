@@ -64,6 +64,12 @@ body{
   flex-direction: column;
 }
 
+.picture{
+  width: 200px;;
+  height: auto;
+  border-radius: 25%;
+}
+
 h1{
     font-size: 3em;
 }
