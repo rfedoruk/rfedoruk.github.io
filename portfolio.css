@@ -1,0 +1,144 @@
+/* Color Pallete:
+  Light Shade: E8E2EC
+  Light Accent: 999CA5
+  Main Color: 658CB8
+  Dark Accent: 837174
+  Dark Shades: 2B2D4D
+
+
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0f3460;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.menu {
+  background-color: #1d2d50;
+  height: 80px;
+  display: flex;
+}
+
+.menu-child{
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+
+.links div:hover{
+  cursor: pointer;
+}
+
+.links{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about{
+  /* background-color: #E8E2EC; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1{
+    font-size: 3em;
+}
+
+.header-text{
+  font-size: 2.5em;
+}
+.about-text{
+  width: 50%;
+  text-align: center;
+}
+
+.projects{
+  border-top: 2px solid #1d2d50;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.projects-text{
+  /* display: flex; */
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+}
+
+.project-grid{
+  /* width: 900px; */
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-grid-item{
+  width: 300px;
+  height: 300px;
+  border: 1px solid white;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Styling for the project tiles */
+a{
+  color: white;
+  text-decoration: none;
+}
+
+/* Mobile Styles  */
+@media only screen and (max-width: 400px) {
+  .about-text{
+    width: 100%;
+  }
+  .projects-text{
+    width: 100%;
+  }
+  .header-text{
+    font-size: 1.5em;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .about-text{
+    width: 100%;
+  }
+
+  .projects-text{
+    width: 100%;
+  }
+
+  .header-text{
+    font-size: 1.5em;
+  }
+}

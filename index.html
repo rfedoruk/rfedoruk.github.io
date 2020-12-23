@@ -1,36 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Roman Fedoruk</title>
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+    <link rel='stylesheet' href='portfolio.css'/>
+    <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  </head>
+  <body>
 
-  <title>Roman Fedoruk</title>
-  <meta name="description" content="Roman Fedoruk Portfolio Site">
-  <meta name="author" content="Roman Fedoruk">
+    <div class='page'>
+  <div class='section menu'>
+          <div class="menu-child">Roman Fedoruk</div>
+          <div class="links">
+          <div class="menu-child">About</div>
+          <div class="menu-child">Projects</div>
+          <div class="menu-child">Contact</div>
+        </div>
+  </div>
 
-  <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <div class='section about'>
+    <h1>About</h1>
+    <button class=".hvr-grow-shadow">Hey</button>
+    <div class='picture'><img src="https://via.placeholder.com/150"/></div>
+    <div class="header-text about-text">
+    <p>Hey! My name is Roman Fedoruk, and I'm a student at Kennesaw State University,
+       studying Computer Science with a concentration in Artificial Intelligence. This website is a collection of the programming Projects
+     that I have successfully completed throughoughout my journey of learning software engineering</p> </div>
+  </div>
 
-</head>
+  <div class="section projects">
+    <div class="projects-text">
+      <h1> Projects</h1>
+      <p class="header-text">This is a collection of projects that I have made, all of them are web-based and use javascript and javascript based frame-works.
+Click on any of them to check them out!</p>
+    </div>
+    <div class="project-grid">
+        <div class="project-grid-item"><a href="js-calculator/dist/index.html">
+          <h2>Javascript Calculator</h2>
+          <p>A fully functional Javascript Calculator, it also allows keyboard input thanks to a javascript library</p></a>
+        </div>
+        <div class="project-grid-item"><a href="hiragana-writing-help/dist/index.html">
+          <h2>Hiragana Writing Practice</h2>
+          <p>This tool helps to learn one of the Japanese Alphabets.</p></a>
+        </div>
+        <div class="project-grid-item"><a href="wikipedia-viewer/dist/index.html">
+          <h2>Wikipedia Viewer</h2>
+          <p>A search engine for Wikipedia, includes a random article button.</p></a>
+        </div>
+        <div class="project-grid-item"><a href="tic-tac-toe/dist/index.html">
+          <h2>Tic Tac Toe</h2>
+          <p>A Javascript Tic Tac Toe game, the user plays against the computer.</p></a>
+        </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
 
-<body>
-  <script src="js/scripts.js"></script>
-
-  <ul id="header">
-  <li class="header-child" id="name"><a href="">Roman Fedoruk</a></li>
-  <li class="header-child"><a href="">Home</a></li>
-  <li class="header-child"><a href="">About</a></li>
-  <li class="header-child"><a href="">Projects</a></li>
-</ul>
-<div id="about">
-  <h2>About</h2>
-  <img src="Pictures/picture2.jpg" alt="RomanFedoruk" id="pic-of-me">
-  <p>Hey! My name is Roman Fedoruk, and I'm a student at Kennesaw State University,
-     studying Computer Science with a concentration in Artificial Intelligence. This website is a collection of the programming Projects
-   that I have successfully completed throughoughout my journey of learning software engineering.</p>
- </div>
-  <div id="projects">
+  <!-- <div id="projects">
     <h2>Projects</h2>
     <p>This is a collection of projects that I have made, all of them are web-based and use javascript and javascript based frame-works.
       <br>
@@ -67,6 +98,4 @@
       </li>
 
     </ul>
-  </div>
-</body>
-</html>
+  </div> -->
